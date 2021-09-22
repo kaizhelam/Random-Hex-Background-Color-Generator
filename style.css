@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h2{
+    margin-top: 10%;
+}
+button{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.5em;
+    border: none;
+    background: transparent;
+    transition-duration: 0.4s;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+input{
+    display: none;
+}
